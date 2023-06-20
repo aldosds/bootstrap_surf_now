@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+.navbar {
+    background-color: rgb(26, 26, 138);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(26, 26, 138);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-picos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(231, 231, 241);
+}
+
+.section-title {
+    font-family: 'Kablammo', cursive;
+}
+
+#sobre-nos, #nossos-picos {
+    background-color: rgb(231, 231, 241);
+}
+
+.text-colored {
+    color: rgb(26, 26, 138);
+}
+
+.nav-picos .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(26, 26, 138);
+    color: #fff;
+}
+
+.nav-picos .nav-link:hover {
+    color: rgb(26, 26, 138);;
+}
+
+.img-picos {
+    border-radius: 50%;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a,
+.picos-links {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
